@@ -1,4 +1,5 @@
-sudo apt install labwc alacritty -y
+echo "Are you installed 'labwc' and 'alacritty'?"
+read -r _ < /dev/tty
 cat << 'EOF' > ~/.config/labwc/rc.xml
 <?xml version="1.0" encoding="utf-8"?>
 <labwc_config>
