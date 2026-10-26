@@ -1,4 +1,4 @@
-sudo apt install nano -y
+echo "Are you installed 'nano'?"
 cat << 'EOF' | sudo tee /usr/bin/wx
 #!/bin/sh
 f="$1"
